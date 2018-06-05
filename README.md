@@ -5,6 +5,7 @@ DIARIO DE TRABAJO
 /*
 Dia 30/05 -- Moreno - Contacto con equipo de sistemas de la clinica 25 de Mayo.
 Dìa 31/05 -- Moreno - Planteo de consignas, de estructuras y funciones de impresión.
+Día 2/05 -- Toledo - Inicio de creacion de base de datos. 
 
 
 */
