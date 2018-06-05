@@ -1,5 +1,16 @@
 #include "h.h"
 
+void imprimirPaciente (PACIENTE pac){
+    if (pac.eliminado==0){
+        printf("Paciente %s.\n", pac.nombreApellido);
+        printf("Edad %i\n", pac.dni);
+        printf("Ha sido atendido %i veces en la clinica.\n", pac.cantAtendido);
+    }
+    else {
+        puts("El paciente se encuentra eliminado de la base de datos.\n");
+    }
+}
+
 //PARA QUEDAR CENTRADO DEBE RECIBIR UN STRING DE 22 CARACTERES.
 void imprimirHeader(char titulo[]){
     int i;
